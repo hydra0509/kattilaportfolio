@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/kattilaportfolio/static/css/main.c29c276c.css",
+    "main.js": "/kattilaportfolio/static/js/main.4dc7ad66.js",
+    "static/media/weatherapp.png": "/kattilaportfolio/static/media/weatherapp.3004a4453d8f71fc2b4a.png",
+    "static/media/kntur.png": "/kattilaportfolio/static/media/kntur.702e6f40511a5a3a4a21.png",
+    "static/media/facerecognition.png": "/kattilaportfolio/static/media/facerecognition.37b79e16149099bde2aa.png",
+    "static/media/blog.png": "/kattilaportfolio/static/media/blog.2675eefb5fbddc63dca0.png",
+    "static/media/me.jpg": "/kattilaportfolio/static/media/me.d22f656527e09055eca3.jpg",
+    "static/media/rps.png": "/kattilaportfolio/static/media/rps.4b4e73e02b7393ecbc30.png",
+    "index.html": "/kattilaportfolio/index.html",
+    "main.c29c276c.css.map": "/kattilaportfolio/static/css/main.c29c276c.css.map",
+    "main.4dc7ad66.js.map": "/kattilaportfolio/static/js/main.4dc7ad66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c29c276c.css",
+    "static/js/main.4dc7ad66.js"
+  ]
+}
