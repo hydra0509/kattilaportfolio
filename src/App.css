@@ -2,37 +2,180 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
 
-.App-link {
-  color: #61dafb;
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(24,105,253);
+  border-radius: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Card {
+  width:26rem;
+  height: 35rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  gap:25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-img {
+  -webkit-filter: brightness(85%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.card-img:hover {
+  -webkit-filter: brightness(100%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.card-img-bitcoinapp {
+  -webkit-filter: brightness(85%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.card-img-bitcoinapp:hover {
+  -webkit-filter: brightness(100%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  text-align: center;
+  color:rgb(24,105,253)
+}
+
+
+.pictureofme {
+  width:22.5rem;
+  margin-bottom: 15px;
+}
+
+.canvas-body {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+
+
+.icon {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.clipboardbutton {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.offcanvastitle {
+  font-size: 2.5rem;
+}
+
+.address-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.light {
+  background-color: white;
+  color:black;
+  transition: 0.5s;
+  border-color: whi;
+}
+
+.dark {
+  background-color: rgb(33,37,41);
+  color:white;
+  transition: 0.5s;
+  border-color: rgb(24,105,253)
+
+}
+
+.card-container {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.themetoggler {
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.sun-icon {
+  color:rgb(24,105,253);
+  font-size:2.5rem;
+  transition:ease 1s;
+  margin-bottom: 0.8rem;
+}
+.sun-icon:hover {
+  color:yellow;
+  font-size:2.5rem;
+  transition:ease 1s;
+  margin-bottom: 0.8rem;
+}
+
+
+
+.moon-icon {
+  color:rgb(24,105,253);
+  font-size:  2.5rem;
+  transition:ease 1s;
+  margin-bottom: 0.8rem;
+
+}
+
+.moon-icon:hover {
+  color:yellow;
+  font-size:2.5rem;
+  transition:ease 1s;
+
+}
+
+.navbartext {
+  font-size: 1.4rem;
+}
+
+.navbar-gap {
+  user-select: none;
+  font-size: 2rem;
+  color:rgb(24,105,253);
 }
