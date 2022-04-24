@@ -2,7 +2,6 @@ import React, { useState, useContext } from "react";
 import useClipboard from "react-use-clipboard";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import me from "./images/me.jpg";
 import { ThemeContext } from "./ThemeContext";
@@ -18,6 +17,7 @@ import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 import { faPerson } from "@fortawesome/free-solid-svg-icons";
 import { faMoon } from "@fortawesome/free-solid-svg-icons";
 import { faSun } from "@fortawesome/free-solid-svg-icons";
+import Header from "./images/header.jpg";
 
 function Navigationbar() {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -36,45 +36,45 @@ function Navigationbar() {
 
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
-      <Navbar.Brand className="themetoggler">
-            {theme === "light" ? (
-              <FontAwesomeIcon
-                onClick={toggleTheme}
-                className="moon-icon"
-                icon={faMoon}
-              />
-            ) : (
-              <FontAwesomeIcon
-                onClick={toggleTheme}
-                className="sun-icon"
-                icon={faSun}
-              />
-            )}
-          </Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link className="navbartext" onClick={handleShow}>
-              About me
-            </Nav.Link>
-            <p className="navbar-gap">
-              |
-            </p>
-            <Nav.Link className="navbartext" onClick={handleShowContact}>
-              Contact
-            </Nav.Link>
-        
-          </Nav>
+      <Navbar sticky="top" bg="dark" variant="dark">
+        <Navbar.Brand className="themetoggler">
+          {theme === "light" ? (
+            <FontAwesomeIcon
+              onClick={toggleTheme}
+              className="moon-icon"
+              icon={faMoon}
+            />
+          ) : (
+            <FontAwesomeIcon
+              onClick={toggleTheme}
+              className="sun-icon"
+              icon={faSun}
+            />
+          )}
+        </Navbar.Brand>
+        <Nav className="me-auto">
+          <Nav.Link className="navbartext" onClick={handleShow}>
+            About me
+          </Nav.Link>
+          <p className="navbar-gap">|</p>
+          <Nav.Link className="navbartext" onClick={handleShowContact}>
+            Contact
+          </Nav.Link>
+        </Nav>
       </Navbar>
-            <Offcanvas className={theme} show={canvas} onHide={handleClose}>
+        <div fluid className="header-container">
+          <img className="img-fluid shadow-4" src={Header}></img>
+          <p className="typing-effect">Hi,I'm Attila.I'm a React dev.</p>
+        </div>
+      <Offcanvas className={theme} show={canvas} onHide={handleClose}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title
-            style={{ fontSize: "2rem", color: "rgb(24,105,253)"}}
+            style={{ fontSize: "2rem", color: "rgb(24,105,253)" }}
           >
             <FontAwesomeIcon className="address-icon" icon={faPerson} />
             About me
           </Offcanvas.Title>
         </Offcanvas.Header>
-
         <Offcanvas.Body className="canvas-body">
           <img src={me} className="pictureofme" />
           Hello,my name is Attila and I am a self-taught React web developer.
@@ -86,9 +86,11 @@ function Navigationbar() {
           Mastery course on Udemy and fell in love with coding. Ever since then
           I'm through a few Udemy courses,hundreds of YouTube videos and coding
           sites like CodeCademy or FreeCodeCamp.My goal is to work as a web
-          developer,in a team where I can learn even more from people who's been
-          doing this for years and pick up some tips and tricks.<br></br>
-          <p style={{ fontSize: "1.2rem", fontWeight: "bold" }}><br></br>
+          developer and make great websites,in a team where I can learn even
+          more from people who's been doing this for years and pick up some tips
+          and tricks.<br></br>
+          <p style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
+            <br></br>
             So far I've learned and/or used:
           </p>
           <ul class="list-group list-group-flush">

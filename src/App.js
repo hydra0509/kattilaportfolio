@@ -13,7 +13,7 @@ function App() {
      <Navigationbar />
      <Cardsites />
      </div>
-  );
+      );
 }
 
 export default App;

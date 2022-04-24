@@ -179,3 +179,38 @@
   font-size: 2rem;
   color:rgb(24,105,253);
 }
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.typing-effect {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 31ch;
+  animation: typing 3s steps(31), effect .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 3.5vw;
+  border-right: 3px solid;
+  user-select: none;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes effect {
+  50% {
+    border-color: transparent
+  }
+}
+
