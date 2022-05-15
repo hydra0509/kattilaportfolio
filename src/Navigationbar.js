@@ -118,7 +118,7 @@ function Navigationbar() {
           </p>
           <ul class="list-group list-group-flush">
             <li className={`list-group list-group-flush ${theme}`}>
-              Express JS
+              Typescript
             </li>
             <li className={`list-group list-group-flush ${theme}`}>MongoDB</li>
           </ul>
