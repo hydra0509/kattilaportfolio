@@ -27,7 +27,7 @@ function Cardsites() {
         <a href="https://hydra0509.github.io/facerecognition/" target="_blank"> <Card.Img  className="card-img" variant="top" src={facerecognition} /></a>
           <Card.Body>
             <Card.Title className="card-title">Face recognition</Card.Title>
-            <Card.Text>
+            <Card.Text className="aboutmetext">
              A face recognition application using the <a href="https://www.clarifai.com/" target="_blank">Clarifai</a> API.<br></br>It works with direct image links.
             </Card.Text>
             <Card.Text></Card.Text>
@@ -42,7 +42,7 @@ function Cardsites() {
          <a href="https://hydra0509.github.io/Cryptotracker/" target="_blank"> <Card.Img className="card-img-bitcoinapp" variant="top" src={crypto} /></a>
           <Card.Body>
             <Card.Title>Crypto currency tracker</Card.Title>
-            <Card.Text>
+            <Card.Text className="aboutmetext">
              A crypto currency tracker made with the <a href="https://www.coingecko.com/" target="_blank">Coingecko</a> API.<br></br>
              I used the Axios NPM package to manage API data and the design is made with React Bootstrap.
             </Card.Text>
@@ -70,7 +70,7 @@ function Cardsites() {
           <a href="https://hydra0509.github.io/portfoliopage/" target="_blank" ><Card.Img className="card-img-bitcoinapp" variant="top" src={kntur} /></a>
           <Card.Body>
             <Card.Title>Kntúr.</Card.Title>
-            <Card.Text>
+            <Card.Text className="aboutmetext">
              A portfolio page I made for my Graphic Designer friend.
             </Card.Text>
           </Card.Body>
@@ -82,7 +82,7 @@ function Cardsites() {
          <a href="https://hydra0509.github.io/Rockpaperscissors/" target="_blank"> <Card.Img className="card-img" variant="top" src={rps} /></a>
           <Card.Body>
             <Card.Title>Rock,Paper,Scissors game</Card.Title>
-            <Card.Text>
+            <Card.Text className="aboutmetext">
              I did not use React for this site,its made entirely in Javascript,HTML and CSS.
             </Card.Text>
           </Card.Body>
@@ -94,13 +94,12 @@ function Cardsites() {
           <a href="https://hydra0509.github.io/weatherapp/" target="_blank"><Card.Img className="card-img" variant="top" src={weatherapp} /></a>
           <Card.Body>
             <Card.Title className="card-title">Weather Application</Card.Title>
-            <Card.Text className="card-text">
+            <Card.Text className="card-text aboutmetext">
              A simple weather application made with the <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a> API.
             </Card.Text>
           </Card.Body>
         </Card>
       </Col>
-
     </Row>
     </Container>
   );

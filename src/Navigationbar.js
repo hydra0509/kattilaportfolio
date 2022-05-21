@@ -77,36 +77,37 @@ function Navigationbar() {
         </Offcanvas.Header>
         <Offcanvas.Body className="canvas-body">
           <img src={me} className="pictureofme" />
-          Hello,my name is Attila and I am a self-taught React web developer.
-          <br></br>I've always been interested in making websites,back in middle
+         <p className="aboutmetext"> Hello,my name is Attila and I am a self-taught React web developer.
+          I've always been interested in making websites,back in middle
           school I used to fool around in HTML. Years later,when COVID started
           in 2019 I was stuck at home in quarantine and trying to figure out
-          what to do.<br></br>That's when my friend told me I should learn
+          what to do.That's when my friend told me I should learn
           something.I looked up how to start making websites,bought the Zero To
           Mastery course on Udemy and fell in love with coding. Ever since then
           I'm through a few Udemy courses,hundreds of YouTube videos and coding
           sites like CodeCademy or FreeCodeCamp.My goal is to work as a web
           developer and make great websites,in a team where I can learn even
           more from people who's been doing this for years and pick up some tips
-          and tricks.<br></br>
-          <p style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
+          and tricks.
+          </p>
+          <p  style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
             <br></br>
             So far I've learned and/or used:
           </p>
           <ul class="list-group list-group-flush">
-            <li className={`list-group list-group-flush ${theme}`}>
+            <li className={`list-group list-group-flush ${theme} aboutmetext`}>
               HTML,JavaScript,CSS
             </li>
-            <li className={`list-group list-group-flush ${theme}`}>React</li>
-            <li className={`list-group list-group-flush ${theme}`}>
+            <li className={`list-group list-group-flush ${theme} aboutmetext`}>React</li>
+            <li className={`list-group list-group-flush ${theme} aboutmetext`}>
               {" "}
               Multiple NPM packages like<br></br> React Router,Axios,Bootstrap
               etc.
             </li>
-            <li className={`list-group list-group-flush ${theme}`}>
+            <li className={`list-group list-group-flush ${theme} aboutmetext`}>
               Git bash,GitHub
             </li>
-            <li className={`list-group list-group-flush ${theme}`}>
+            <li className={`list-group list-group-flush ${theme} aboutmetext`}>
               Functional React and hooks
             </li>
           </ul>
@@ -117,10 +118,10 @@ function Navigationbar() {
             And currently learning:
           </p>
           <ul class="list-group list-group-flush">
-            <li className={`list-group list-group-flush ${theme}`}>
+            <li className={`list-group list-group-flush ${theme} aboutmetext`}>
               Typescript
             </li>
-            <li className={`list-group list-group-flush ${theme}`}>MongoDB</li>
+            <li className={`list-group list-group-flush ${theme} aboutmetext`}>MongoDB</li>
           </ul>
           <br></br>
           Thank you for checking out my portfolio page!
