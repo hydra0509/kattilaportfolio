@@ -101,11 +101,14 @@ function Navigationbar() {
             <li className={`list-group list-group-flush ${theme} aboutmetext`}>React</li>
             <li className={`list-group list-group-flush ${theme} aboutmetext`}>
               {" "}
-              Multiple NPM packages like<br></br> React Router,Axios,Bootstrap
+              Multiple NPM packages like<br></br> React Router,Axios
               etc.
             </li>
             <li className={`list-group list-group-flush ${theme} aboutmetext`}>
               Git bash,GitHub
+            </li>
+            <li className={`list-group list-group-flush ${theme} aboutmetext`}>
+              Bootstrap
             </li>
             <li className={`list-group list-group-flush ${theme} aboutmetext`}>
               Functional React and hooks
