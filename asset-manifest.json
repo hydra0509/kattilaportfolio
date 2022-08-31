@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/kattilaportfolio/static/css/main.b1172ff4.css",
-    "main.js": "/kattilaportfolio/static/js/main.0b11f937.js",
+    "main.js": "/kattilaportfolio/static/js/main.17aa9b96.js",
+    "static/media/boardgame.png": "/kattilaportfolio/static/media/boardgame.32552a3ad27a6c065bf2.png",
     "static/media/header.jpg": "/kattilaportfolio/static/media/header.ee72b4c6325a02134d14.jpg",
-    "static/media/boardgame.png": "/kattilaportfolio/static/media/boardgame.58c7ccaaa3fc6617e2fc.png",
     "static/media/weatherapp.png": "/kattilaportfolio/static/media/weatherapp.3004a4453d8f71fc2b4a.png",
     "static/media/kntur.png": "/kattilaportfolio/static/media/kntur.702e6f40511a5a3a4a21.png",
     "static/media/facerecognition.png": "/kattilaportfolio/static/media/facerecognition.37b79e16149099bde2aa.png",
@@ -11,10 +11,10 @@
     "static/media/me.jpg": "/kattilaportfolio/static/media/me.d22f656527e09055eca3.jpg",
     "index.html": "/kattilaportfolio/index.html",
     "main.b1172ff4.css.map": "/kattilaportfolio/static/css/main.b1172ff4.css.map",
-    "main.0b11f937.js.map": "/kattilaportfolio/static/js/main.0b11f937.js.map"
+    "main.17aa9b96.js.map": "/kattilaportfolio/static/js/main.17aa9b96.js.map"
   },
   "entrypoints": [
     "static/css/main.b1172ff4.css",
-    "static/js/main.0b11f937.js"
+    "static/js/main.17aa9b96.js"
   ]
 }
