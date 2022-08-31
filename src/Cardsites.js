@@ -39,7 +39,7 @@ function Cardsites() {
         <Card className={`Card ${theme}`}>
          <a href="https://hydra0509.github.io/fantasyboardgame/" target="_blank"> <Card.Img className="card-img" variant="top" src={boardgame} /></a>
           <Card.Body>
-            <Card.Title>Rock,Paper,Scissors game</Card.Title>
+            <Card.Title>Fantasy board game</Card.Title>
             <Card.Text className="aboutmetext">
              My biggest project yet.A fantasy themed board game with different characters that has different abilities,cards,gambling etc.
             </Card.Text>
