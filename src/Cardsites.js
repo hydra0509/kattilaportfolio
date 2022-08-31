@@ -41,7 +41,7 @@ function Cardsites() {
           <Card.Body>
             <Card.Title>Fantasy board game</Card.Title>
             <Card.Text className="aboutmetext">
-             My biggest project yet.A fantasy themed board game with different characters that has different abilities,cards,gambling etc.
+             My biggest project yet.A fantasy themed board game that includes different characters that has different abilities,cards,gambling etc.
             </Card.Text>
           </Card.Body>
         </Card>
