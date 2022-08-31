@@ -7,7 +7,7 @@ import blog from './images/blog.png'
 import crypto from './images/crypto.png'
 import facerecognition from './images/facerecognition.png'
 import kntur from './images/kntur.png'
-import rps from './images/rps.png'
+import boardgame from './images/boardgame.png'
 import weatherapp from './images/weatherapp.png'
 import { ThemeContext } from "./ThemeContext";
 
@@ -35,6 +35,18 @@ function Cardsites() {
         </Card>
       </Col>
 
+      <Col className="card-container">
+        <Card className={`Card ${theme}`}>
+         <a href="https://hydra0509.github.io/fantasyboardgame/" target="_blank"> <Card.Img className="card-img" variant="top" src={boardgame} /></a>
+          <Card.Body>
+            <Card.Title>Rock,Paper,Scissors game</Card.Title>
+            <Card.Text className="aboutmetext">
+             My biggest project yet.A fantasy themed board game with different characters that has different abilities,cards,gambling etc.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
    
       
       <Col className="card-container">
@@ -51,19 +63,6 @@ function Cardsites() {
       </Col>
 
 
-      <Col className="card-container">
-        <Card className={`Card ${theme}`}>
-          <a href="https://hydra0509.github.io/blog/" target="_blank"><Card.Img className="card-img" variant="top" src={blog} /></a>
-          <Card.Body>
-            <Card.Title>Blog</Card.Title>
-            <Card.Text>
-             A blog made with the <a href="https://jsonplaceholder.typicode.com/" target="_blank" >JSONPlaceholder API</a>.<br></br>
-             I used Axios to manage API data and React Router with dynamic id's for different pages.There is a button to turn data into real,running on a server (on my computer if its turned on) made with Express JS which I'm currently learning.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
-
 
       <Col className="card-container">
         <Card className={`Card ${theme}`}>
@@ -77,17 +76,7 @@ function Cardsites() {
         </Card>
       </Col>
 
-      <Col className="card-container">
-        <Card className={`Card ${theme}`}>
-         <a href="https://hydra0509.github.io/Rockpaperscissors/" target="_blank"> <Card.Img className="card-img" variant="top" src={rps} /></a>
-          <Card.Body>
-            <Card.Title>Rock,Paper,Scissors game</Card.Title>
-            <Card.Text className="aboutmetext">
-             I did not use React for this site,its made entirely in Javascript,HTML and CSS.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
+      
 
       <Col className="card-container">
         <Card className={`Card ${theme}`}>
@@ -96,6 +85,19 @@ function Cardsites() {
             <Card.Title className="card-title">Weather Application</Card.Title>
             <Card.Text className="card-text aboutmetext">
              A simple weather application made with the <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a> API.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col className="card-container">
+        <Card className={`Card ${theme}`}>
+          <a href="https://hydra0509.github.io/blog/" target="_blank"><Card.Img className="card-img" variant="top" src={blog} /></a>
+          <Card.Body>
+            <Card.Title>Blog</Card.Title>
+            <Card.Text>
+             A blog made with the <a href="https://jsonplaceholder.typicode.com/" target="_blank" >JSONPlaceholder API</a>.<br></br>
+             I used Axios to manage API data and React Router with dynamic id's for different pages.There is a button to turn data into real,running on a server (on my computer if its turned on) made with Express JS which I'm currently learning.
             </Card.Text>
           </Card.Body>
         </Card>
