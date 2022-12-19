@@ -86,7 +86,7 @@ function Navigationbar() {
           Mastery course on Udemy and fell in love with coding. Ever since then
           I'm through a few Udemy courses,hundreds of YouTube videos and coding
           sites like CodeCademy or FreeCodeCamp.My goal is to work as a web
-          developer and make great websites,in a team where I can learn even
+          developer and make fast,user friendly websites,in a team where I can learn even
           more from people who's been doing this for years and pick up some tips
           and tricks.
           </p>
@@ -113,18 +113,12 @@ function Navigationbar() {
             <li className={`list-group list-group-flush ${theme} aboutmetext`}>
               Functional React and hooks
             </li>
-          </ul>
-          <ul class="list-group list-group-flush">
-            <li className={`list-group list-group-flush ${theme}`}> </li>
-          </ul>
-          <p style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
-            And currently learning:
-          </p>
-          <ul class="list-group list-group-flush">
+            <li className={`list-group list-group-flush ${theme} aboutmetext`}>
+              Redux
+            </li>
             <li className={`list-group list-group-flush ${theme} aboutmetext`}>
               Typescript
             </li>
-            <li className={`list-group list-group-flush ${theme} aboutmetext`}>MongoDB</li>
           </ul>
           <br></br>
           Thank you for checking out my portfolio page!
